@@ -1,8 +1,8 @@
 import { useState } from 'react'
+import './App.css'
 import reactLogo from './assets/react.svg'
 // Unable to resolve path to module '/vite.svg'.eslintimport/no-unresolved
 const viteLogo = '/vite.svg'
-import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
