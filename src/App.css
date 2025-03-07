@@ -40,3 +40,22 @@
 .read-the-docs {
   color: #888;
 }
+
+.creditCard {
+  width: 330px;
+  background: linear-gradient(to right, rgb(91, 90, 111), black);
+}
+
+.logo.chip {
+  width: 86px;
+}
+
+.name {
+  font-family: sans-serif;
+}
+
+.cardNumber {
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  background: linear-gradient(to right, rgb(98, 97, 118), rgb(13, 13, 13));
+}
