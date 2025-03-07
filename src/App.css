@@ -1,121 +1,104 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
-
 .creditCard {
+  background: linear-gradient(to right, rgb(91, 90, 111), rgb(0, 0, 0));
   width: 330px;
-  border-radius: 30px;
   color: white;
+  border-radius: 30px;
+  margin: 20px;
   text-align: left;
-  background: linear-gradient(to right, rgb(91, 90, 111), black);
 }
 
-.balance {
-  padding-top: 10px;
+.firstLine {
+  display: flex;
+  gap: 61%;
+  padding-left: 23px;
+  padding-top: 20px;
+  padding-bottom: 8px;
 }
 
 .check {
   font-weight: lighter;
-  font-size: small;
-  line-height: 20px;
+  font-size: smaller;
+  line-height: 8px;
+  padding-top: 2px;
 }
 
 .number {
-  font-weight: bold;
-  font-size: large;
-  font-stretch: expanded;
+  font-weight: 500;
+  font-size: larger;
 }
 
 .logo.chip {
-  width: 86px;
+  width: 36px;
 }
 
 .secondLine {
   display: flex;
-  gap: 40px;
-  padding-left: 10px;
-  padding-bottom: 10px;
+  gap: 55px;
+  padding-left: 23px;
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
 
-.holder {
-  font-weight: lighter;
-  font-size: small;
+.holders {
+  opacity: 0.6;
+  font-weight: 400;
+  font-size: 12px;
+  font-family: sans-serif;
 }
 
 .name {
-  font-weight: bolder;
+  font-weight: 500;
+  font-size: 15px;
   font-family: sans-serif;
-  font-size: small;
 }
 
-.time {
-  font-weight: lighter;
-  font-size: small;
+.times {
+  opacity: 0.7;
+  font-weight: 400;
+  font-size: 12px;
 }
 
 .date {
-  font-weight: 500;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: sans-serif;
 }
 
 .cardNumber {
-  padding-left: 10px;
+  background: linear-gradient(to right, rgb(105, 104, 121), rgb(25, 24, 24));
   display: flex;
-  font-size: small;
-  gap: 50px;
+  gap: 55px;
+  padding-left: 28px;
+  padding-top: 15px;
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 30px;
-  background: linear-gradient(to right, rgb(98, 97, 118), rgb(13, 13, 13));
 }
 
 .details {
-  font-weight: bolder;
-  font-size: large;
-  padding-left: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-stretch: extra-expanded;
+  font-weight: 500;
+  font-size: 21px;
+  padding-top: 2px;
+  font-family: sans-serif;
 }
 
 .icon {
   display: flex;
-  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.round1 {
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  border-radius: 100%;
+  opacity: 0.5;
+}
+
+.round2 {
+  margin-left: -16px;
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  border-radius: 100%;
+  opacity: 0.5;
 }
